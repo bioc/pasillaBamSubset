@@ -7,7 +7,7 @@ Description: Subset of BAM files untreated1.bam (single-end reads) and
 	untreated1.bam and untreated3.bam were obtained from the RNA-Seq
 	read sequence data that is provided by NCBI Gene Expression Omnibus
 	under accession numbers GSM461176 to GSM461181.
-Version: 0.0.1
+Version: 0.0.2
 Author: H. Pages
 Maintainer: H. Pages <hpages@fhcrc.org>
 biocViews: ExperimentData, RNAseqData
