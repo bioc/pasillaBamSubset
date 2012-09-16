@@ -6,8 +6,10 @@ Description: Subset of BAM files untreated1.bam (single-end reads) and
 	See the vignette in the pasilla data package for how BAM files
 	untreated1.bam and untreated3.bam were obtained from the RNA-Seq
 	read sequence data that is provided by NCBI Gene Expression Omnibus
-	under accession numbers GSM461176 to GSM461181.
-Version: 0.0.2
+	under accession numbers GSM461176 to GSM461181.  Also contains
+        the DNA sequence for fly chromosome 4 to which the reads can
+        be mapped.
+Version: 0.0.3
 Author: H. Pages
 Maintainer: H. Pages <hpages@fhcrc.org>
 biocViews: ExperimentData, RNAseqData

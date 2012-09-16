@@ -19,6 +19,8 @@
 
   \code{untreated1_chr4} and \code{untreated3_chr4} return the path to
   those files.
+
+  
 }
 
 \usage{
@@ -33,11 +35,21 @@ untreated3_chr4()
   BAM files untreated1.bam and untreated3.bam contain single-end and
   paired-end reads aligned to reference genome \emph{BDGP Release 5}
   (aka the \emph{dm3} genome on the UCSC Genome Browser).
+
+  Fasta file \code{chr4.fa} from UCSC, the Apr. 2006 assembly of the
+  D. melanogaster genome (dm3, BDGP Release 5): DNA sequence for fly
+  chromosome 4.
+
 }
 
 \examples{
 untreated1_chr4()
 untreated3_chr4()
+# 
+# filename = file.path (find.package ('PasillaBamSubset'), 'extdata', 'chr4.fa')
+# checkTrue (file.exists (filename))
+# sequence.from.fasta = open (Rsamtools::FaFile (filename))
+
 }
 
 \keyword{utilities}
