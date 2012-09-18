@@ -4,6 +4,7 @@
 \alias{pasillaBamSubset}
 \alias{untreated1_chr4}
 \alias{untreated3_chr4}
+\alias{chr4}
 
 \title{Utilities returning the paths to BAM files untreated1_chr4.bam
        and untreated3_chr4.bam}
@@ -17,7 +18,10 @@
   (paired-end reads, "Pasilla" experiment) where only alignments located
   on chr4 (Fly) were kept.
 
-  \code{untreated1_chr4} and \code{untreated3_chr4} return the path to
+  FASTA file chr4.fa contains the full sequence of the D. melanogaster
+  chromosome 4.
+  
+  \code{untreated1_chr4}, \code{untreated3_chr4}  and \code{chr4} return the path to
   those files.
 
   
@@ -26,6 +30,7 @@
 \usage{
 untreated1_chr4()
 untreated3_chr4()
+chr4()
 }
 
 \details{
@@ -45,11 +50,7 @@ untreated3_chr4()
 \examples{
 untreated1_chr4()
 untreated3_chr4()
-# 
-# filename = file.path (find.package ('PasillaBamSubset'), 'extdata', 'chr4.fa')
-# checkTrue (file.exists (filename))
-# sequence.from.fasta = open (Rsamtools::FaFile (filename))
-
+chr4()
 }
 
 \keyword{utilities}
