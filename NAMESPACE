@@ -1,6 +1,6 @@
 export(
     untreated1_chr4,
     untreated3_chr4,
-    chr4
+    dm3_chr4
 )
 
