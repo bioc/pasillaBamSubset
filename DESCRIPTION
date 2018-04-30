@@ -10,8 +10,9 @@ Description: Subset of BAM files untreated1.bam (single-end reads) and
         the DNA sequence for fly chromosome 4 to which the reads can
         be mapped.
 Version: 0.17.0
-Author: H. Pages
-Maintainer: H. Pages <hpages@fhcrc.org>
+Encoding: UTF-8
+Author: Hervé Pagès
+Maintainer: Hervé Pagès <hpages@fredhutch.org>
 biocViews: ExperimentData, Genome, DNASeqData, RNASeqData
 Suggests: pasilla
 License: LGPL
