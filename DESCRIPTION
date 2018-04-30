@@ -9,7 +9,7 @@ Description: Subset of BAM files untreated1.bam (single-end reads) and
 	under accession numbers GSM461176 to GSM461181.  Also contains
         the DNA sequence for fly chromosome 4 to which the reads can
         be mapped.
-Version: 0.17.0
+Version: 0.18.0
 Encoding: UTF-8
 Author: Hervé Pagès
 Maintainer: Hervé Pagès <hpages@fredhutch.org>
